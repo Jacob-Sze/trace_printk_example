@@ -6,7 +6,7 @@ Steps to run sock_example.c:
 5) To get print statements from bpf_trace_printk: "sudo cat /sys/kernel/debug/tracing/trace_pipe"
 6) "make clean"
 
-Note: In order to get verifier error log for unsafe programs you can uncomment line 57 in sock_example.c.
+Note: In order to get verifier error log for unsafe programs you can uncomment line 73 in sock_example.c.
 
 Information about machine where this code executed:
 
